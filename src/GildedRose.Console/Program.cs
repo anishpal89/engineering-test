@@ -9,6 +9,7 @@ public class Program
     static void Main(string[] args)
     {
         System.Console.WriteLine("OMGHAI!");
+        //test github commit
 
         var app = new Program()
                       {
