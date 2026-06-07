@@ -30,6 +30,11 @@ public class Program
         };
 
         app.UpdateQuality();
+        foreach (var item in app.Items)
+        {
+            System.Console.WriteLine(
+                $"{item.Name}, SellIn: {item.SellIn}, Quality: {item.Quality}");
+        }
 
         System.Console.ReadKey();
     }
